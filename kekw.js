@@ -3,7 +3,8 @@ const express = require('express');
 const querystring = require('querystring');
 const WebSocket = require('ws');
 const path = require('path');
-import open from 'open';
+const open = await import('open');
+
 const CLIENT_ID = "08ca014eec2149b9bbdd6ba987aee6b1";
 const CLIENT_SECRET = "d0dfe56257094788b0eb5aceb82e9491";
 const REDIRECT_URI = 'http://localhost:8888/callback';

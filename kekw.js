@@ -3,7 +3,7 @@ const express = require('express');
 const querystring = require('querystring');
 const WebSocket = require('ws');
 const path = require('path');
-const open = await import('open');
+import open from 'open';
 
 const CLIENT_ID = "08ca014eec2149b9bbdd6ba987aee6b1";
 const CLIENT_SECRET = "d0dfe56257094788b0eb5aceb82e9491";

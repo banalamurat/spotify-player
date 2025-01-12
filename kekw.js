@@ -1,8 +1,8 @@
-const axios = require('axios');
-const express = require('express');
-const querystring = require('querystring');
-const WebSocket = require('ws');
-const path = require('path');
+import axios from 'axios';
+import express from 'express';
+import querystring from 'querystring';
+import WebSocket from 'ws';
+import path = from 'path';
 import open from 'open';
 
 const CLIENT_ID = "08ca014eec2149b9bbdd6ba987aee6b1";
